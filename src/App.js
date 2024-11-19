@@ -4,6 +4,7 @@ import Features from "./components/sections/Features";
 import Testimonials from "./components/sections/Testimonials";
 import Contact from "./components/sections/Contact";
 import WebAppOverview from "./components/sections/WebAppoverview";
+import OurTeam from "./components/sections/OurTeam";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Testimonials />
       <Contact />
       <WebAppOverview />
+      <OurTeam />
     </div>
   );
 }
