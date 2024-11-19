@@ -5,6 +5,7 @@ import Testimonials from "./components/sections/Testimonials";
 import Contact from "./components/sections/Contact";
 import WebAppOverview from "./components/sections/WebAppoverview";
 import OurTeam from "./components/sections/OurTeam";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Contact />
       <WebAppOverview />
       <OurTeam />
+      <Footer/>
     </div>
   );
 }
