@@ -7,6 +7,7 @@ import Contact from "./components/sections/Contact";
 import WebAppOverview from "./components/sections/WebAppoverview";
 import OurTeam from "./components/sections/OurTeam";
 import Footer from "./components/common/Footer";
+import HowItWorks from "./components/sections/HowItWorks";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Features />
       <WhatYouGet />
+      <HowItWorks />
       <Testimonials />
       <Contact />
       <WebAppOverview />
