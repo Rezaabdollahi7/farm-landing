@@ -61,7 +61,7 @@ const tableData = {
 
 function TechnologyOverview() {
     return (
-        <div className="mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <section id='TechOverview' className="mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <div className='text-2xl flex justify-start items-start lg:items-center gap-3 text-gray-800 '>
                 <InformationCircleIcon className='w-8 h-8' />
                 <h3>Product & Technology Overview</h3>
@@ -101,7 +101,7 @@ function TechnologyOverview() {
                     ))}
                 </tbody>
             </table>
-        </div>
+        </section>
     );
 }
 

@@ -112,7 +112,7 @@ const categories = [
 
 export default function WhatYouGet() {
     return (
-        <div className="bg-white">
+        <section className="bg-white" id='including'>
             <div className="mx-auto max-w-xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900 flex gap-2 justify-center items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -146,6 +146,6 @@ export default function WhatYouGet() {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

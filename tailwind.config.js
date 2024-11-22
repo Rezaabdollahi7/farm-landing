@@ -3,12 +3,12 @@ import plugin from 'tailwindcss/plugin';
 import colors from 'tailwindcss/colors';
 
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ['./src/**/*.{js,jsx}', './public/index.html'],
   darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],  
+        sans: ['Poppins', 'sans-serif'],
       },
     },
     colors: {

@@ -6,10 +6,10 @@ import Logo from '../../assets/icons/farm1.png'
 
 const navigation = [
     { name: 'Home', href: '#', current: true },
-    { name: 'Benefits ', href: '#', current: false },
-    { name: 'Sensors', href: '#', current: false },
-    { name: 'Statistics ', href: '#', current: false },
-    { name: 'How It Works Section ', href: '#', current: false },
+    { name: 'How It Works ? ', href: '#how', current: false },
+    { name: 'Including ', href: '#including', current: false },
+    { name: 'Technology', href: '#TechOverview', current: false },
+    { name: 'Features ', href: '#Features', current: false },
 ]
 
 
@@ -20,12 +20,12 @@ export default function Hero() {
     return (
         <div className="bg-white">
             <header className="absolute inset-x-0 top-0 z-50">
-                <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
+                <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8 ">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5 flex justify-center items-center gap-2">
                             <span className="sr-only">Your Company</span>
                             <img className="h-10 w-auto" src={Logo} alt="Your Company" />
-                            <h2 className='font-bold bg-gradient-to-r from-green-500  to-green-800 bg-clip-text text-transparent text-lg'>Farm Sens</h2>
+                            <h2 className='font-bold  text-lg gradient-text  '>Farm Sens</h2>
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -40,13 +40,13 @@ export default function Hero() {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-600 border-b-2 border-white transition-all duration-150  hover:border-b-2 hover:border-green-700 hover: ">
                                 {item.name}
                             </a>
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2">
                             Dashboard <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
@@ -55,11 +55,11 @@ export default function Hero() {
                 <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
                     <div className="fixed inset-0 z-50" />
                     <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center justify-between border-b pb-8">
                             <a href="#" className="-m-1.5 p-1.5 flex justify-center items-center gap-2">
                                 <span className="sr-only">Your Company</span>
                                 <img className="h-10 w-auto" src={Logo} alt="Your Company" />
-                                <h2 className='font-bold bg-gradient-to-r from-green-500  to-green-800 bg-clip-text text-transparent text-lg'>Farm Sens</h2>
+                                <h2 className='font-bold gradient-text text-lg'>Farm Sens</h2>
                             </a>
                             <button
                                 type="button"
@@ -86,9 +86,9 @@ export default function Hero() {
                                 <div className="py-6">
                                     <a
                                         href="#"
-                                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                        className="-mx-3 inline text-base font-semibold leading-7 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2"
                                     >
-                                       Dashboard
+                                        Dashboard
                                     </a>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ export default function Hero() {
                         <h1 className="mt-10 max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                             The Future of Agriculture is Here
                         </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-600">
+                        <p className="mt-6 text-lg leading-8 text-gray-600 ">
                             "Transforming traditional farming with cutting-edge technology, real-time monitoring, and data-driven insights to ensure sustainable growth and unparalleled efficiency for every farmer."
                         </p>
                         <div className="mt-10 flex items-center gap-x-6">
@@ -177,6 +177,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
