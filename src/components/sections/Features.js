@@ -32,11 +32,11 @@ export default function Features() {
     return (
         <section id='Features' className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl lg:text-center">
-                    <h2 className="text-base/7 font-semibold text-indigo-600">
+                <div className="mx-auto max-w-3xl lg:text-center">
+                    <h2 className="text-base font-semibold text-indigo-600">
                         Transform Your Farming Experience
                     </h2>
-                    <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight  text-gray-900 sm:text-5xl lg:text-balance">
+                    <p className="mt-2 text-pretty  font-semibold tracking-tight  text-gray-900 text-lg  sm:text-4xl lg:text-balance">
                         Optimize resources, boost yields, and achieve sustainable farming effortlessly.
                     </p>
                 </div>
