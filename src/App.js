@@ -9,6 +9,7 @@ import OurTeam from "./components/sections/OurTeam";
 import Footer from "./components/common/Footer";
 import HowItWorks from "./components/sections/HowItWorks";
 import Gallery from "./components/sections/Gallery";
+import TechnologyOverview from "./components/sections/TechnologyOverview";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <HowItWorks />
       <WhatYouGet />
       <WebAppOverview />
+      <TechnologyOverview />
       <Features />
       <Testimonials />
       <Gallery />
