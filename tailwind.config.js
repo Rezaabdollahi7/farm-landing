@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import plugin from 'tailwindcss/plugin';
 import colors from 'tailwindcss/colors';
 
 module.exports = {

@@ -135,7 +135,7 @@ export default function WebAppOverview() {
                         <div className="mt-10 border-t border-gray-200 pt-10">
                             <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
                             <div className="prose prose-sm mt-4 text-gray-500">
-                                <ul role="list">
+                                <ul >
                                     {product.highlights.map((highlight) => (
                                         <div className='item-container flex justify-start items-center gap-2 mt-2'>
                                             <CheckBadgeIcon className='w-6 h-6'></CheckBadgeIcon>

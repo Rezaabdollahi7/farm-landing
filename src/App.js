@@ -1,4 +1,3 @@
-import Navbar from "./components/common/Navbar";
 import Hero from "./components/sections/Hero";
 import Features from "./components/sections/Features";
 import WhatYouGet from "./components/sections/WhatYouGet";
@@ -14,7 +13,6 @@ import TechnologyOverview from "./components/sections/TechnologyOverview";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <Hero />
       <HowItWorks />
       <WhatYouGet />

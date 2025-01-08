@@ -20,7 +20,7 @@ const people = [
         xUrl: '#',
         linkedinUrl: '#',
     },
- 
+
 ]
 
 export default function OurTeam() {
@@ -34,7 +34,7 @@ export default function OurTeam() {
                     </p>
                 </div>
                 <ul
-                    role="list"
+
                     className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2"
                 >
                     {people.map((person) => (
@@ -43,7 +43,7 @@ export default function OurTeam() {
                             <h3 className="mt-6 text-lg font-semibold leading-8 text-gray-900">{person.name}</h3>
                             <p className="text-base leading-7 text-gray-600">{person.role}</p>
                             <p className="mt-4 text-base leading-7 text-gray-600">{person.bio}</p>
-                            <ul role="list" className="mt-6 flex gap-x-6">
+                            <ul className="mt-6 flex gap-x-6">
                                 <li>
                                     <a href={person.xUrl} className="text-gray-400 hover:text-gray-500">
                                         <span className="sr-only">Email</span>

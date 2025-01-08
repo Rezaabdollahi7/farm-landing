@@ -67,7 +67,7 @@ function TechnologyOverview() {
                 <InformationCircleIcon className='w-8 h-8' />
                 <h3>Product & Technology Overview</h3>
             </div>
-            <div className='table-wrapper overflow-x-scroll'>
+            <div className='table-wrapper overflow-x-scroll lg:overflow-x-hidden'>
                 <table className="min-w-full border-collapse border border-green-300 text-left mt-8">
                     <thead className="bg-green-500 text-white">
                         <tr>

@@ -28,7 +28,7 @@ export default function HowItWorks() {
                             <p>
                                 "Our sensors are designed to seamlessly integrate with your farming operations. They monitor key parameters such as soil moisture, salinity, and temperature in real-time, transmitting data to our Farm Web App. Using this data, you can make informed decisions about irrigation, fertilization, and other critical processes, ensuring healthier crops and maximizing productivity."
                             </p>
-                            <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                            <ul className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
                                     <CalendarIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
                                     <span>

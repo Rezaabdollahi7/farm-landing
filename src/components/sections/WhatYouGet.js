@@ -1,7 +1,6 @@
 import dataLogerImg from '../../assets/images/including/including-1.png'
 import sensorImg from '../../assets/images/including/including-2.png'
 import webAppImg from '../../assets/images/including/including-3.png'
-import { LightBulbIcon } from '@heroicons/react/16/solid'
 import { WrenchScrewdriverIcon } from '@heroicons/react/16/solid'
 const categories = [
     {
