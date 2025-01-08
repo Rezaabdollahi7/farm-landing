@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
-import Logo from '../../assets/icons/farm1.png'
+import Logo from '../../assets/icons/farm.png'
 
 const navigation = [
     { name: 'Home', href: '#', current: true },
@@ -18,8 +18,8 @@ export default function Hero() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className="bg-white">
-            <header className="absolute inset-x-0 top-0 z-50">
+        <div className="">
+            <header className="fixed inset-x-0 top-0 z-50 bg-white border-b-2">
                 <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8 ">
                     <div className="flex lg:flex-1">
                         <a href="/" className="-m-1.5 p-1.5 flex justify-center items-center gap-2">
@@ -47,7 +47,7 @@ export default function Hero() {
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <a href="/" className="text-sm font-semibold leading-6 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2">
-                            Dashboard <span aria-hidden="true">&rarr;</span>
+                            Get App <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
                 </nav>
@@ -88,7 +88,7 @@ export default function Hero() {
                                         href="/"
                                         className="-mx-3 inline text-base font-semibold leading-7 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2"
                                     >
-                                        Dashboard
+                                        Get App
                                     </a>
                                 </div>
                             </div>
