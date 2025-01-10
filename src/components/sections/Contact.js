@@ -20,22 +20,6 @@ export default function Contact() {
                             </p>
                         </address>
                     </div>
-                    <div>
-                        <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Phone Number</h3>
-                        <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                            <p>
-                                <a target="_blank" rel="noreferrer"  href="tel:+989911152536" className="text-gray-600 hover:underline">
-                                    +98 991 115 2536
-                                </a>
-                            </p>
-                        </address>
-                    </div>
-                    <div>
-                        <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Location</h3>
-                        <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-                            <p>Iran, Tabriz, Emam Street</p>
-                        </address>
-                    </div>
                 </div>
             </div>
         </div>

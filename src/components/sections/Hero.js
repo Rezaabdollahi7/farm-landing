@@ -10,6 +10,8 @@ const navigation = [
     { name: 'Including ', href: '#including', current: false },
     { name: 'Technology', href: '#TechOverview', current: false },
     { name: 'Features ', href: '#Features', current: false },
+    { name: 'Sens 1', href: 'https://farm-sens.com/wp-content/uploads/2024/08/Sens-1.pdf', current: false },
+    { name: 'Benefits', href: 'https://farm-sens.com/wp-content/uploads/2024/08/Installation-Benefits.pdf', current: false }
 ]
 
 
@@ -40,7 +42,12 @@ export default function Hero() {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-600 border-b-2 border-white transition-all duration-150  hover:border-b-2 hover:border-green-700 hover: ">
+                            <a
+                                key={item.name}
+                                href={item.href}
+                                rel="noreferrer"
+                                className="text-sm font-semibold leading-6 text-gray-600 border-b-2 border-white transition-all duration-150 hover:border-b-2 hover:border-green-700"
+                            >
                                 {item.name}
                             </a>
                         ))}
@@ -134,8 +141,9 @@ export default function Hero() {
                                 </a>
                             </div>
                         </div>
-                        <h1 className="mt-10 max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                            The Future of Agriculture is Here
+                        <h1 className="mt-10 max-w-xl text-4xl font-bold tracking-normal text-gray-900 sm:text-6xl">
+                            Smart Agriculture
+                            Solution for Sustainability
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600 ">
                             "Transforming traditional farming with cutting-edge technology, real-time monitoring, and data-driven insights to ensure sustainable growth and unparalleled efficiency for every farmer."

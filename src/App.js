@@ -4,7 +4,6 @@ import WhatYouGet from "./components/sections/WhatYouGet";
 import Testimonials from "./components/sections/Testimonials";
 import Contact from "./components/sections/Contact";
 import WebAppOverview from "./components/sections/WebAppoverview";
-import OurTeam from "./components/sections/OurTeam";
 import Footer from "./components/common/Footer";
 import HowItWorks from "./components/sections/HowItWorks";
 import Gallery from "./components/sections/Gallery";
@@ -22,7 +21,6 @@ function App() {
       <Testimonials />
       <Gallery />
       <Contact />
-      <OurTeam />
       <Footer />
     </div>
   );
