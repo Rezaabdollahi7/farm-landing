@@ -15,7 +15,7 @@ export default function Contact() {
                         <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
                             <p>
                                 <a target="_blank" rel="noreferrer"  href="mailto:info@farm-sens.com" className="text-gray-600 hover:underline">
-                                    info@farm-sens.com
+                                    info@farm.com
                                 </a>
                             </p>
                         </address>

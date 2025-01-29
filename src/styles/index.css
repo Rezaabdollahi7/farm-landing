@@ -12,3 +12,10 @@ html {
     background-clip: text;
     color: transparent;
 }
+
+.background-hero {
+    background-image: url('../assets/images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}

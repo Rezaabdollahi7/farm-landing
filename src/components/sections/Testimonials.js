@@ -1,7 +1,7 @@
 import Farmer from '../../assets/images/faremer-1.jpg'
 
 const featuredTestimonial = {
-    body: "Farm-Sens has completely transformed how I manage my farm. The real-time soil monitoring and irrigation alerts have saved me so much water and effort. Highly recommended!",
+    body: "Farm has completely transformed how I manage my farm. The real-time soil monitoring and irrigation alerts have saved me so much water and effort. Highly recommended!",
     author: {
         name: 'Brenna Goyette',
         handle: 'brennagoyette',
@@ -95,7 +95,7 @@ export default function Testimonials() {
                 <div className="mx-auto max-w-xl text-center">
                     <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Farmers Share Their Experiences with Farm-Sens
+                        Farmers Share Their Experiences with Farm
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">

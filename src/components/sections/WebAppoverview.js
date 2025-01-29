@@ -5,11 +5,11 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels  } from '@headlessui/react'
 import SloganImg from '../../assets/images/Green Modern Agriculture Presentation.jpg'
 
 const product = {
-    name: 'Farm Sens Web App',
+    name: 'Farm  Web App',
     version: { name: '1.0', date: 'November 19, 2024', datetime: '2024-11-19' },
     price: '$220',
     description:
-        'Farm-Sens is an innovative web application designed to enhance agricultural productivity through real-time soil monitoring and smart irrigation management, empowering farmers with data-driven insights to optimize water usage, improve crop health, and increase yields for sustainable farming practices.',
+        'Farm is an innovative web application designed to enhance agricultural productivity through real-time soil monitoring and smart irrigation management, empowering farmers with data-driven insights to optimize water usage, improve crop health, and increase yields for sustainable farming practices.',
     highlights: [
         'Irrigation and nutrient management',
         'Show the time, address, amount and type of poison',
@@ -26,24 +26,24 @@ const reviews = {
 }
 const faqs = [
     {
-        question: '1- What is Farm-Sens?',
+        question: '1- What is Farm?',
         answer:
-            'Farm-Sens is an innovative web application that provides real-time soil monitoring and smart irrigation management tools to help farmers optimize water usage, enhance crop health, and improve overall agricultural productivity.',
+            'Farm is an innovative web application that provides real-time soil monitoring and smart irrigation management tools to help farmers optimize water usage, enhance crop health, and improve overall agricultural productivity.',
     },
     {
-        question: '2- How does Farm-Sens work?',
+        question: '2- How does Farm work?',
         answer:
-            "Farm-Sens uses advanced sensors to collect data on soil moisture, temperature, and nutrient levels. This data is then analyzed to provide actionable insights and alerts necessary for effective irrigation and crop management.",
+            "Farm uses advanced sensors to collect data on soil moisture, temperature, and nutrient levels. This data is then analyzed to provide actionable insights and alerts necessary for effective irrigation and crop management.",
     },
     {
-        question: '3- Is there a mobile app for Farm-Sens?',
+        question: '3- Is there a mobile app for Farm?',
         answer:
-            "Currently, Farm-Sens is a web-based application. However, it is optimized for mobile devices, allowing you to access all features from your smartphone or tablet.",
+            "Currently, Farm is a web-based application. However, it is optimized for mobile devices, allowing you to access all features from your smartphone or tablet.",
     },
     {
-        question: '4- Is my data secure with Farm-Sens?',
+        question: '4- Is my data secure with Farm?',
         answer:
-            "Yes, we prioritize your privacy and security. Farm-Sens employs industry-standard encryption and security measures to protect your data from unauthorized access and ensure it is safely stored.",
+            "Yes, we prioritize your privacy and security. Farm employs industry-standard encryption and security measures to protect your data from unauthorized access and ensure it is safely stored.",
     },
     {
         question: '5- How can I get support if I have issues with the application?',
@@ -57,7 +57,7 @@ const license = {
 
     content: `
     <p>
-        The Farm-Sens web application is licensed under a user-friendly plan that allows farmers and agricultural businesses to leverage its advanced features while ensuring compliance with intellectual property rights. The licensing typically includes access to real-time data analytics, support for sensor integration, and regular updates to enhance functionality. Users are granted permission to utilize the application for their farming needs, with stipulations regarding redistribution and modifications to protect the integrity of the software. For detailed licensing information, users are encouraged to review the End User License Agreement (EULA) provided upon registration or contact our support team for clarification on specific terms. This approach ensures that all users can effectively benefit from the technology while respecting the developers' rights
+        The Farm web application is licensed under a user-friendly plan that allows farmers and agricultural businesses to leverage its advanced features while ensuring compliance with intellectual property rights. The licensing typically includes access to real-time data analytics, support for sensor integration, and regular updates to enhance functionality. Users are granted permission to utilize the application for their farming needs, with stipulations regarding redistribution and modifications to protect the integrity of the software. For detailed licensing information, users are encouraged to review the End User License Agreement (EULA) provided upon registration or contact our support team for clarification on specific terms. This approach ensures that all users can effectively benefit from the technology while respecting the developers' rights
     </p>
     
 
@@ -119,16 +119,10 @@ export default function WebAppOverview() {
                         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
                             <button
                                 type="button"
-                                className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
-                            >
-                                Pay {product.price}
-                            </button>
-                            <button
-                                type="button"
                                 className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
                             >
                                 <PhoneIcon className="h-5 w-5 mr-2" aria-hidden="true" />
-                                (98) 914 555 8745 
+                                (91) 911 111 1111 
                             </button>  
                         </div>
 

@@ -1,29 +1,46 @@
-import { ChartBarIcon, BellAlertIcon, PresentationChartBarIcon, LightBulbIcon } from '@heroicons/react/24/outline'
-
+import dropIcon from '../../assets/icons/drop.png'
+import alertIcon from '../../assets/icons/alert.png'
+import inputcon from '../../assets/icons/input.png'
+import leafcon from '../../assets/icons/leaf.png'
+import mapIcon from '../../assets/icons/map.png'
+import sensorIcon from '../../assets/icons/sensor.png'
+import shot from'../../assets/images/shot.png'
 const features = [
     {
-        name: 'Real-time Soil Monitoring',
+        name: 'Intelligent irrigation system',
         description:
-            'Get instant insights into soil moisture, salinity, and temperature to make informed decisions and optimize farm efficiency.',
-        icon: ChartBarIcon,
+            'Optimizing water consumption on agricultural land with a smart calendar',
+        icon: dropIcon,
     },
     {
-        name: 'Smart Irrigation Alerts',
+        name: 'The ability to send regional alerts',
         description:
-            'Receive timely notifications on when and how much to irrigate, reducing water waste and improving crop health.',
-        icon: BellAlertIcon,
+            'Get the latest regional and irrigation warnings and drought on your land with FARM',
+        icon: alertIcon,
     },
     {
-        name: 'Customizable Dashboards',
+        name: 'The smartest measuring sensors',
         description:
-            'Visualize your farm’s data with user-friendly charts and reports, tailored to suit your specific needs.',
-        icon: PresentationChartBarIcon,
+            'Keep up to date with the most accurate and up-to-date sensors on the FARM.',
+        icon: sensorIcon,
     },
     {
         name: 'Predictive Fertilization Insights',
         description:
             'Plan fertilization schedules with AI-powered predictions to enhance soil quality and boost crop yield.',
-        icon: LightBulbIcon,
+        icon: leafcon,
+    },
+    {
+        name: 'Aerial map of the Earth',
+        description:
+            'View the location of the farm using the aerial map',
+        icon: mapIcon,
+    },
+    {
+        name: 'Adding land',
+        description:
+            'Add your farmland to the FARM for smart survey',
+        icon: inputcon,
     },
 ]
 
@@ -32,21 +49,22 @@ export default function Features() {
     return (
         <section id='Features' className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-3xl lg:text-center">
+                <div className="mx-auto max-w-3xl lg:text-center flex flex-col justify-center items-center">
                     <h2 className="text-base font-semibold text-indigo-600">
                         Transform Your Farming Experience
                     </h2>
                     <p className="mt-2 text-pretty  font-semibold tracking-tight  text-gray-900 text-lg  sm:text-4xl lg:text-balance">
                         Optimize resources, boost yields, and achieve sustainable farming effortlessly.
                     </p>
+                    <img src={shot} alt="farm app screen shot" className='rounded-[2rem] max-h-96 mt-4  hover:animate-pulse ' />
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
                     <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
                         {features.map((feature) => (
                             <div key={feature.name} className="relative pl-16">
                                 <dt className="text-base/7 font-semibold text-gray-900">
-                                    <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
-                                        <feature.icon aria-hidden="true" className="size-6 text-white" />
+                                    <div className="absolute left-0 top-0 flex px-2 py-2 items-center justify-center rounded-lg bg-gray-100 border border-gray-300">
+                                        <img src={feature.icon} alt="icon" className='size-8' />
                                     </div>
                                     {feature.name}
                                 </dt>

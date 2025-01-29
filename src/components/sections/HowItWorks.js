@@ -91,7 +91,7 @@ export default function HowItWorks() {
                             </ul>
                             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Join the Digital Farming Revolution</h2>
                             <p className="mt-6">
-                                "Upgrade your farm with FARM-Sens smart sensors and enjoy real-time data, cost savings, and healthier crops. It's time to bring the future of farming to your fields!"
+                                "Upgrade your farm with FARM smart sensors and enjoy real-time data, cost savings, and healthier crops. It's time to bring the future of farming to your fields!"
                             </p>
                         </div>
                     </div>

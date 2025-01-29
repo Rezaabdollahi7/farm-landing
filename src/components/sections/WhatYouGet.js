@@ -42,7 +42,7 @@ const categories = [
         name: '2- Sensors',
         href: '#',
         imageSrc: sensorImg,
-        imageAlt: 'farm-sens SENSOR',
+        imageAlt: 'farm SENSOR',
         description: `
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                     <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">

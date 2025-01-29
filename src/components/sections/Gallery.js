@@ -7,7 +7,7 @@ export default function Gallery() {
                 <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
                     <div className="sm:max-w-lg">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl  ">
-                            Farm Sens Gallery
+                            Farm  Gallery
                         </h1>
                         <p className="mt-8 text-xl text-gray-500">
                             "Take a closer look at our installed sensors in action, designed for real-time monitoring and efficiency. Explore how our technology integrates seamlessly into any farming setup."

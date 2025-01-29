@@ -51,7 +51,7 @@ export default function Navbar() {
                         </div>
                     </div>
                     <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 gap-3">
-                        <h2 className='font-bold bg-gradient-to-r from-green-500  to-green-800 bg-clip-text text-transparent text-lg'>Farm Sens</h2>
+                        <h2 className='font-bold bg-gradient-to-r from-green-500  to-green-800 bg-clip-text text-transparent text-lg'>Farm </h2>
                         <img className="h-10 w-auto" src={Logo} alt="Your Company" />
                     </div>
                 </div>
