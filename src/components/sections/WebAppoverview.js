@@ -1,8 +1,8 @@
 
 import { Fragment } from 'react'
-import { StarIcon , PhoneIcon , CheckBadgeIcon} from '@heroicons/react/20/solid'
-import { Tab, TabGroup, TabList, TabPanel, TabPanels  } from '@headlessui/react'
-import SloganImg from '../../assets/images/Green Modern Agriculture Presentation.jpg'
+import { CheckBadgeIcon, ChatBubbleLeftIcon } from '@heroicons/react/20/solid'
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
+import SloganImg from '../../assets/images/farmPackage.webp'
 
 const product = {
     name: 'Farm  Web App',
@@ -21,9 +21,7 @@ const product = {
     imageSrc: SloganImg,
     imageAlt: 'Sample of 30 icons with friendly and fun details in outline, filled, and brand color styles.',
 }
-const reviews = {
-    average: 5,
-}
+
 const faqs = [
     {
         question: '1- What is Farm?',
@@ -64,9 +62,7 @@ const license = {
   `,
 }
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
+
 
 export default function WebAppOverview() {
     return (
@@ -84,7 +80,7 @@ export default function WebAppOverview() {
                     {/* Product details */}
                     <div className="mx-auto mt-14 max-w-2xl sm:mt-16 lg:col-span-3 lg:row-span-2 lg:row-end-2 lg:mt-0 lg:max-w-none">
                         <div className="flex flex-col-reverse">
-                            <div className="mt-4">
+                            <div >
                                 <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.name}</h1>
 
                                 <h2 id="information-heading" className="sr-only">
@@ -96,22 +92,6 @@ export default function WebAppOverview() {
                                 </p>
                             </div>
 
-                            <div>
-                                <h3 className="sr-only">Reviews</h3>
-                                <div className="flex items-center">
-                                    {[0, 1, 2, 3, 4].map((rating) => (
-                                        <StarIcon
-                                            key={rating}
-                                            aria-hidden="true"
-                                            className={classNames(
-                                                reviews.average > rating ? 'text-yellow-400' : 'text-gray-300',
-                                                'h-5 w-5 flex-shrink-0',
-                                            )}
-                                        />
-                                    ))}
-                                </div>
-                                <p className="sr-only">{reviews.average} out of 5 stars</p>
-                            </div>
                         </div>
 
                         <p className="mt-6 text-gray-500">{product.description}</p>
@@ -119,11 +99,13 @@ export default function WebAppOverview() {
                         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
                             <button
                                 type="button"
-                                className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
+                                className="flex w-full items-center justify-center gap-3 rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
                             >
-                                <PhoneIcon className="h-5 w-5 mr-2" aria-hidden="true" />
-                                (91) 911 111 1111 
-                            </button>  
+                                <ChatBubbleLeftIcon className="h-5 w-5 " aria-hidden="true" />
+                                <span>
+                                    info@farm.com
+                                </span>
+                            </button>
                         </div>
 
                         <div className="mt-10 border-t border-gray-200 pt-10">
