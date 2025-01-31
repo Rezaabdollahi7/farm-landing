@@ -986,6 +986,21 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
+.border-green-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(34 197 94 / var(--tw-border-opacity, 1));
+}
+.border-green-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(22 101 52 / var(--tw-border-opacity, 1));
+}
+.border-green-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity, 1));
+}
+.border-green-800\/50 {
+  border-color: rgb(22 101 52 / 0.5);
+}
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
@@ -1044,6 +1059,28 @@ video {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\] {
+  background-color: ;
+}
+.bg-\[\#4885\] {
+  background-color: #4885;
+}
+.bg-\[\#488245\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 130 69 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#bfd3be\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 211 190 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#dab6da\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 182 218 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#dae6da\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 230 218 / var(--tw-bg-opacity, 1));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));

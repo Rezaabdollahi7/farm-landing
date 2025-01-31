@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-    GlobeAltIcon, ChartBarIcon, WifiIcon, CogIcon, ShieldCheckIcon, InformationCircleIcon, Battery50Icon, BellAlertIcon, CubeIcon, ChartBarSquareIcon
+    GlobeAltIcon, ChartBarIcon, WifiIcon, CogIcon, ShieldCheckIcon, Battery50Icon, BellAlertIcon, CubeIcon, ChartBarSquareIcon
     , CloudIcon
 } from '@heroicons/react/20/solid';
-
+import FarmLeafIcon from "../../assets/icons/farmLeaf.png"
 const tableData = {
     headers: ["Features", "FARM Sens 1", "FARM Sens 2", "FARM Sens 3"],
     rows: [
@@ -63,18 +63,20 @@ const tableData = {
 function TechnologyOverview() {
     return (
         <section id='TechOverview' className="mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 ">
-            <div className='text-2xl flex justify-start items-start lg:items-center gap-3 text-gray-800 '>
-                <InformationCircleIcon className='w-8 h-8' />
-                <h3>Product & Technology Overview</h3>
-            </div>
+
+
+            <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
+                <img src={FarmLeafIcon} alt='farm leaf ixon' className='w-10 h-10 rounded-full' />
+                Technology Overview</h2>
+
             <div className='table-wrapper overflow-x-scroll lg:overflow-x-hidden'>
-                <table className="min-w-full border-collapse border border-green-300 text-left mt-8">
-                    <thead className="bg-green-500 text-white">
+                <table className="min-w-full    text-left mt-8">
+                    <thead className="bg-[#488245] text-white">
                         <tr>
                             {tableData.headers.map((header, index) => (
                                 <th
                                     key={index}
-                                    className="px-4 py-2 text-sm lg:text-base  font-semibold border border-green-300 text-center"
+                                    className="px-4 py-2 text-sm lg:text-base  font-semibold border border-green-800 text-center"
                                 >
                                     {header}
                                 </th>
@@ -85,7 +87,7 @@ function TechnologyOverview() {
                         {tableData.rows.map((row, rowIndex) => (
                             <tr
                                 key={rowIndex}
-                                className={rowIndex % 2 === 0 ? "bg-green-100" : "bg-green-200"}
+                                className={rowIndex % 2 === 0 ? "bg-[#bfd3be]" : "bg-[#dae6da]"}
                             >
                                 <td className="flex items-center px-2 py-2 text-xs  lg:text-base  font-semibold text-gray-700 ">
                                     <row.icon className="h-5 w-5 text-green-700 mr-2" />
@@ -94,7 +96,7 @@ function TechnologyOverview() {
                                 {row.values.map((value, colIndex) => (
                                     <td
                                         key={colIndex}
-                                        className="px-4 py-2 text-gray-700 text-xs  sm:text-base  border border-green-300 text-center"
+                                        className="px-4 py-2 text-gray-700 text-xs  sm:text-base  border border-green-800/50 text-center"
                                     >
                                         {value}
                                     </td>

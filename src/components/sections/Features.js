@@ -4,7 +4,8 @@ import inputcon from '../../assets/icons/input.png'
 import leafcon from '../../assets/icons/leaf.png'
 import mapIcon from '../../assets/icons/map.png'
 import sensorIcon from '../../assets/icons/sensor.png'
-import shot from'../../assets/images/shot.png'
+import shot from '../../assets/images/shot.png'
+import FarmLeafIcon from "../../assets/icons/farmLeaf.png"
 const features = [
     {
         name: 'Intelligent irrigation system',
@@ -50,10 +51,10 @@ export default function Features() {
         <section id='Features' className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-3xl lg:text-center flex flex-col justify-center items-center">
-                    <p className="mt-2 text-pretty  font-semibold tracking-tight  text-gray-900 text-lg  sm:text-4xl lg:text-balance">
-                        Optimize resources, boost yields, and achieve sustainable farming effortlessly.
-                    </p>
-                    <img src={shot} alt="farm app screen shot" className='rounded-[2rem] max-h-96 mt-4  hover:animate-pulse ' />
+                    <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
+                        <img src={FarmLeafIcon} alt='farm leaf ixon' className='w-10 h-10 rounded-full' />
+                        FARM App Features</h2>
+                    <img src={shot} alt="farm app screen shot" className='rounded-[2rem] max-h-96 mt-8  hover:animate-pulse ' />
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
                     <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
