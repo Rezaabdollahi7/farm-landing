@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../../assets/icons/farm.png'
-
+import { Link } from 'react-router-dom';
 const navigation = [
     { name: 'Home', href: '#', current: true },
     { name: 'How It Works ? ', href: '#how', current: false },
@@ -51,11 +51,13 @@ export default function Hero() {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-3">
-                        <a href="/" className="text-sm font-semibold leading-6 text-white bg-blue-600 rounded-xl px-4 py-2">
-                             Shop
-                        </a>
-                        <a href="/" className="text-sm font-semibold leading-6 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2">
-                             FARM App
+                        <Link to={"/contact"} className="text-sm font-semibold leading-6 text-white bg-blue-600 rounded-xl px-4 py-2" >
+                            Shop
+                        </Link>
+
+                        <a href="https://farm-sens-user.vercel.app/" target='_blank'
+                            rel="noreferrer" className="text-sm font-semibold leading-6 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2">
+                            FARM App
                         </a>
                     </div>
                 </nav>
@@ -92,17 +94,16 @@ export default function Hero() {
                                 </div>
                                 <div className="py-6 text-center w-full gap-5 flex justify-center">
                                     <a
-                                        href="/"
+                                        href="https://farm-sens-user.vercel.app/"
+                                        target='_blank'
+                                        rel="noreferrer"
                                         className=" inline text-base font-semibold leading-7 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2"
                                     >
-                                         FARM App 
+                                        FARM App
                                     </a>
-                                    <a
-                                        href="/"
-                                        className=" inline text-base font-semibold leading-7 text-white bg-blue-600 rounded-xl px-4 py-2"
-                                    >
-                                         Shop
-                                    </a>
+                                    <Link to={"/contact"} className="text-sm font-semibold leading-6 text-white bg-blue-600 rounded-xl px-4 py-2" >
+                                        Shop
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -110,31 +111,6 @@ export default function Hero() {
                 </Dialog>
             </header>
             <div className="relative isolate pt-14">
-                <svg
-                    aria-hidden="true"
-                    className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
-                >
-                    <defs>
-                        <pattern
-                            x="50%"
-                            y={-1}
-                            id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527"
-                            width={200}
-                            height={200}
-                            patternUnits="userSpaceOnUse"
-                        >
-                            <path d="M100 200V.5M.5 .5H200" fill="none" />
-                        </pattern>
-                    </defs>
-                    <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
-                        <path
-                            d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                            strokeWidth={0}
-                        />
-                    </svg>
-                    <rect fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" width="100%" height="100%" strokeWidth={0} />
-                </svg>
-
                 <div className="mx-auto  px-6 py-24 sm:py-32 lg:flex lg:items-center justify-center lg:px-8 lg:py-40  background-hero">
                     <div className="mx-auto flex flex-col justify-center items-center shadow-md backdrop-blur-md px-4 md:px-16 py-16 rounded-2xl border border-gray-400 bg-black/20 ">
                         <img alt="logo" src={Logo} className='h-24 w-24 lg:w-32 lg:h-32' />

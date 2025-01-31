@@ -14,10 +14,26 @@ export default function Contact() {
                         <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Email</h3>
                         <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
                             <p>
-                                <a target="_blank" rel="noreferrer"  href="mailto:info@farm-sens.com" className="text-gray-600 hover:underline">
+                                <a target="_blank" rel="noreferrer" href="mailto:info@farm.com" className="text-gray-600 hover:underline">
                                     info@farm.com
                                 </a>
                             </p>
+
+                        </address>
+                    </div>
+                    <div>
+                        <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Linkedin</h3>
+                        <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
+                            <p>
+                                <a href="https://www.linkedin.com/company/FARM-App"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-600 hover:underline flex items-center"
+                                    aria-label="صفحه LinkedIn شرکت Farm Sens">
+                                    FARM.Linkedin
+                                </a>
+                            </p>
+
                         </address>
                     </div>
                 </div>
