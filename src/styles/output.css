@@ -708,6 +708,12 @@ video {
 .h-12 {
   height: 3rem;
 }
+.h-8 {
+  height: 2rem;
+}
+.h-96 {
+  height: 24rem;
+}
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1085,6 +1091,23 @@ video {
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\] {
+  background-color: ;
+}
+.bg-\[\#d\] {
+  background-color: #d;
+}
+.bg-\[\#bfd3ba\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 211 186 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#76\] {
+  background-color: #76;
+}
+.bg-\[\#76a174\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(118 161 116 / var(--tw-bg-opacity, 1));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
