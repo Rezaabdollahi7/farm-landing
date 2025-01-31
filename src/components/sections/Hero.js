@@ -21,7 +21,7 @@ export default function Hero() {
     return (
         <div className="">
             <header className="fixed inset-x-0 top-0 z-50 bg-white border-b-2">
-                <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8 ">
+                <nav aria-label="Global" className="flex items-center justify-between p-3 lg:px-8 ">
                     <div className="flex lg:flex-1">
                         <a href="/" className="-m-1.5 p-1.5 flex justify-center items-center gap-2">
                             <span className="sr-only">Your Company</span>
