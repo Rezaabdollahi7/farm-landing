@@ -25,7 +25,7 @@ export default function HowItWorks() {
                         <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                             <ul className=" space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
-                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-6 w-6 rounded-full" />
+                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-8 w-8 rounded-full" />
                                     <span>
                                         <p>
                                             Smart agriculture and irrigation sensors help farmers adapt to difficult weather conditions and optimize irrigation
@@ -35,7 +35,7 @@ export default function HowItWorks() {
                                 </li>
 
                                 <li className="flex gap-x-3">
-                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-6 w-6 rounded-full" />
+                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-8 w-8 rounded-full" />
 
                                     <span>
                                         <p>
@@ -45,7 +45,7 @@ export default function HowItWorks() {
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-6 w-6 rounded-full" />
+                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-8 w-8 rounded-full" />
                                     <span>
                                         <p>
                                             The unique FARM App creates a completely functional and simple for users with the help of artificial intelligence, which can easily solve any need in agriculture.
@@ -54,7 +54,7 @@ export default function HowItWorks() {
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-6 w-6 rounded-full" />
+                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-8 w-8 rounded-full" />
                                     <span>
                                         <p>
                                             Farmers have a smart and fluid calendar available at any time and in any place to see the exact time of agricultural needs, these needs can include irrigation, fertilization, spraying, fighting frost.
@@ -63,7 +63,7 @@ export default function HowItWorks() {
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-6 w-6 rounded-full" />
+                                    <img src={FarmLeafIcon} alt='farm leaf icon' className="mt-1 h-8 w-8 rounded-full" />
                                     <span>
                                         <p>
                                             This means the planting season with a specific work schedule and predicted by the information received online from the FARM.

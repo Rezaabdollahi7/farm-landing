@@ -714,6 +714,9 @@ video {
 .h-96 {
   height: 24rem;
 }
+.h-7 {
+  height: 1.75rem;
+}
 .max-h-96 {
   max-height: 24rem;
 }
@@ -752,6 +755,12 @@ video {
 }
 .w-12 {
   width: 3rem;
+}
+.w-8 {
+  width: 2rem;
+}
+.w-7 {
+  width: 1.75rem;
 }
 .min-w-full {
   min-width: 100%;
@@ -2185,6 +2194,11 @@ textarea {
 
   .lg\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 

@@ -45,29 +45,29 @@ const categories = [
         imageAlt: 'farm SENSOR',
         description: `
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-                    <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">
+                    <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Range VWC</h3>
-                        <p class="text-gray-100 mt-2">0 - 100%</p>
+                        <p class="text-gray-900 mt-2">0 - 100%</p>
                     </div>
-                    <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">
+                    <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">EC (bulk)</h3>
-                        <p class="text-gray-100 mt-2">0 - 23 ds/m</p>
+                        <p class="text-gray-900 mt-2">0 - 23 ds/m</p>
                     </div>
-                    <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">
+                    <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Temperature</h3>
-                        <p class="text-gray-100 mt-2">-40 to 50°C</p>
+                        <p class="text-gray-900 mt-2">-40 to 50°C</p>
                     </div>
-                    <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">
+                    <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Cable Length</h3>
-                        <p class="text-gray-100 mt-2">5 m</p>
+                        <p class="text-gray-900 mt-2">5 m</p>
                     </div>
-                    <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">
+                    <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Dimensions</h3>
-                        <p class="text-gray-100 mt-2">12×3×1 cm</p>
+                        <p class="text-gray-900 mt-2">12×3×1 cm</p>
                     </div>
-                    <div class="p-2 bg-green-700 rounded-lg shadow-md flex flex-col items-center text-center ">
+                    <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Measurement</h3>
-                        <p class="text-gray-100 mt-2">2 S</p>
+                        <p class="text-gray-900 mt-2">2 S</p>
                     </div>
                 </div>
                 `,

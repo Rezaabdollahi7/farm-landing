@@ -67,7 +67,7 @@ function TechnologyOverview() {
 
             <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
                 <img src={FarmLeafIcon} alt='farm leaf ixon' className='w-10 h-10 rounded-full' />
-                Technology Overview</h2>
+                Technology Overview & Products</h2>
 
             <div className='table-wrapper overflow-x-scroll lg:overflow-x-hidden'>
                 <table className="min-w-full    text-left mt-8">
@@ -76,7 +76,7 @@ function TechnologyOverview() {
                             {tableData.headers.map((header, index) => (
                                 <th
                                     key={index}
-                                    className="px-4 py-2 text-sm lg:text-base  font-semibold border border-green-800 text-center"
+                                    className="px-4 py-2 text-sm lg:text-xl  font-semibold border border-green-800 text-center"
                                 >
                                     {header}
                                 </th>
@@ -90,7 +90,7 @@ function TechnologyOverview() {
                                 className={rowIndex % 2 === 0 ? "bg-[#bfd3be]" : "bg-[#dae6da]"}
                             >
                                 <td className="flex items-center px-2 py-2 text-xs  lg:text-base  font-semibold text-gray-700 ">
-                                    <row.icon className="h-5 w-5 text-green-700 mr-2" />
+                                    <row.icon className="h-8 w-8 text-green-700 mr-2" />
                                     {row.feature}
                                 </td>
                                 {row.values.map((value, colIndex) => (
