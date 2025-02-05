@@ -1,14 +1,14 @@
-import dataLogerImg from '../../assets/images/including/including-1.png'
-import sensorImg from '../../assets/images/including/including-21.png'
-import webAppImg from '../../assets/images/including/including-31.png'
-import FarmLeafIcon from "../../assets/icons/farmLeaf.png"
+import dataLogerImg from "../../assets/images/including/including-1.png";
+import sensorImg from "../../assets/images/including/including-21.png";
+import webAppImg from "../../assets/images/including/including-31.png";
+import farmLeaf2Icon from "../../assets/icons/farmLeaf2.png";
 const categories = [
-    {
-        name: ' Data Logger & Modem',
-        href: '#',
-        imageSrc: dataLogerImg,
-        imageAlt: 'Data Logger & Modem',
-        description: `
+  {
+    name: " Data Logger & Modem",
+    href: "#",
+    imageSrc: dataLogerImg,
+    imageAlt: "Data Logger & Modem",
+    description: `
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Housing</h3>
@@ -36,14 +36,13 @@ const categories = [
                 </div>
             </div>
             `,
-
-    },
-    {
-        name: ' Sensors',
-        href: '#',
-        imageSrc: sensorImg,
-        imageAlt: 'farm SENSOR',
-        description: `
+  },
+  {
+    name: " Sensors",
+    href: "#",
+    imageSrc: sensorImg,
+    imageAlt: "farm SENSOR",
+    description: `
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Range VWC</h3>
@@ -71,14 +70,13 @@ const categories = [
                     </div>
                 </div>
                 `,
-
-    },
-    {
-        name: ' FARM Web App',
-        href: '#',
-        imageSrc: webAppImg,
-        imageAlt: 'farm web app image',
-        description: `
+  },
+  {
+    name: " FARM Web App",
+    href: "#",
+    imageSrc: webAppImg,
+    imageAlt: "farm web app image",
+    description: `
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Version</h3>
@@ -106,43 +104,52 @@ const categories = [
                     </div>
                 </div>
                 `,
-
-    },
-]
+  },
+];
 
 export default function WhatYouGet() {
-    return (
-        <section className="bg-white" id='including'>
-            <div className="mx-auto max-w-xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-                <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
-                    <img src={FarmLeafIcon} alt='farm leaf ixon' className='w-10 h-10 rounded-full' />
-                    FARM Package Including</h2>
+  return (
+    <section className="bg-white" id="including">
+      <div className="mx-auto max-w-xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
+          <img
+            src={farmLeaf2Icon}
+            alt="farm leaf ixon"
+            className="w-12 h-12 rounded-full"
+          />
+          FARM Package Including
+        </h2>
 
-                <div className="mt-16 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-12 lg:space-y-0">
-                    {categories.map((category) => (
-                        <a key={category.name} href={category.href} className="group block border rounded-3xl p-4 drop-shadow-2xl bg-white">
-                            <h3 className="my-8 text-xl  lg:text-xl text-center font-semibold text-gray-900">{category.name}</h3>
-                            <div
-                                aria-hidden="true"
-                                className=" overflow-hidden rounded-lg  group-hover:opacity-75"
-                            >
-                                <div className=" px-4 flex justify-center">
-                                    <img
-                                        alt={category.imageAlt}
-                                        src={category.imageSrc}
-                                        className="w-80 h-80 rounded-lg"
-                                    />
-                                </div>
-
-                            </div>
-                            <div
-                                className="mt-2 text-sm text-gray-500"
-                                dangerouslySetInnerHTML={{ __html: category.description }}
-                            ></div>
-                        </a>
-                    ))}
+        <div className="mt-16 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-12 lg:space-y-0">
+          {categories.map((category) => (
+            <a
+              key={category.name}
+              href={category.href}
+              className="group block border rounded-3xl p-4 drop-shadow-2xl bg-white"
+            >
+              <h3 className="my-8 text-xl  lg:text-xl text-center font-semibold text-gray-900">
+                {category.name}
+              </h3>
+              <div
+                aria-hidden="true"
+                className=" overflow-hidden rounded-lg  group-hover:opacity-75"
+              >
+                <div className=" px-4 flex justify-center">
+                  <img
+                    alt={category.imageAlt}
+                    src={category.imageSrc}
+                    className="w-80 h-80 rounded-lg"
+                  />
                 </div>
-            </div>
-        </section>
-    )
+              </div>
+              <div
+                className="mt-2 text-sm text-gray-500"
+                dangerouslySetInnerHTML={{ __html: category.description }}
+              ></div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
