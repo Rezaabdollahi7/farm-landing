@@ -4,7 +4,10 @@ import inputcon from "../../assets/icons/input.png";
 import leafcon from "../../assets/icons/leaf.png";
 import mapIcon from "../../assets/icons/map.png";
 import sensorIcon from "../../assets/icons/sensor.png";
-import shot from "../../assets/images/shot.png";
+import shot1 from "../../assets/images/Features/shot1.png";
+import shot2 from "../../assets/images/Features/shot2.png";
+import shot3 from "../../assets/images/Features/shot3.png";
+import shot4 from "../../assets/images/Features/shot4.png";
 import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const features = [
   {
@@ -45,9 +48,12 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="Features" className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl lg:text-center flex flex-col justify-center items-center">
+    <section
+      id="Features"
+      className="bg-white py-24 sm:py-32 mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 "
+    >
+      <div className="mx-auto w-full px-6 lg:px-8">
+        <div className="mx-auto  lg:text-center flex flex-col justify-center items-center">
           <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
             <img
               src={farmLeaf2Icon}
@@ -56,13 +62,14 @@ export default function Features() {
             />
             FARM App Features
           </h2>
-          <img
-            src={shot}
-            alt="farm app screen shot"
-            className="rounded-[2rem] max-h-96 mt-8  hover:animate-pulse "
-          />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-y-6 gap-x-4 mt-12">
+            <img src={shot1} alt="app shot" className="w-80" />
+            <img src={shot2} alt="app shot" className="w-80" />
+            <img src={shot3} alt="app shot" className="w-80" />
+            <img src={shot4} alt="app shot" className="w-80" />
+          </div>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
