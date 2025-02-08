@@ -111,7 +111,7 @@ export default function WhatYouGet() {
   return (
     <section className="bg-white" id="including">
       <div className="mx-auto max-w-xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
+        <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
           <img
             src={farmLeaf2Icon}
             alt="farm leaf ixon"

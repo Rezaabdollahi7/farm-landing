@@ -54,7 +54,7 @@ export default function Features() {
     >
       <div className="mx-auto w-full px-6 lg:px-8">
         <div className="mx-auto  lg:text-center flex flex-col justify-center items-center">
-          <h2 className="text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
+          <h2 className=" text-2xl lg:text-3xl font-bold tracking-tight text-primaryDark flex gap-2 justify-center items-center">
             <img
               src={farmLeaf2Icon}
               alt="farm leaf ixon"

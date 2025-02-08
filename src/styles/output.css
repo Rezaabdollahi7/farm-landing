@@ -2500,6 +2500,11 @@ textarea {
     line-height: 1.75rem;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:opacity-100 {
     opacity: 1;
   }

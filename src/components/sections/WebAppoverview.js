@@ -123,7 +123,7 @@ export default function WebAppOverview() {
 
       <div className="grid w-full lg:gap-8 lg:grid-cols-12 mx-auto px-4  sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
         <div className=" border-gray-200 pt-6 col-span-5">
-          <h3 className="text-3xl text-center font-bold text-primaryDark">
+          <h3 className="text-3xl lg:text-center font-bold text-primaryDark">
             Highlights
           </h3>
           <div className="prose prose-sm mt-4 text-gray-500">
@@ -143,7 +143,7 @@ export default function WebAppOverview() {
           </div>
         </div>
 
-        <div className="w-full col-span-7 ">
+        <div className="w-full col-span-7  mt-12 lg:mt-0">
           <TabGroup>
             <div className="border-b border-gray-200">
               <TabList className="-mb-px flex space-x-8">
