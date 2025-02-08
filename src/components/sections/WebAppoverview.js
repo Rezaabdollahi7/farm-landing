@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import { CheckBadgeIcon, ChatBubbleLeftIcon } from "@heroicons/react/20/solid";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
-import SloganImg from "../../assets/images/farmPackage.webp";
-import farmLeaf2Icon from "../../assets/icons/farmLeaf2.png";
+import SloganImg from "../../assets/images/farmPackage.png";
+import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const product = {
   name: "Farm  Web App",
   version: { name: "1.0", date: "November 19, 2024", datetime: "2024-11-19" },
@@ -86,7 +86,7 @@ export default function WebAppOverview() {
                   <img
                     src={farmLeaf2Icon}
                     alt="farm leaf ixon"
-                    className="w-12 h-12 rounded-full"
+                    className="w-12 h-14 rounded-full"
                   />
                   <h1 className="text-2xl font-bold tracking-tight text-primaryDark sm:text-3xl">
                     {product.name}
@@ -117,62 +117,71 @@ export default function WebAppOverview() {
                 <span>info@farm.com</span>
               </button>
             </div>
-
-            <div className="mt-10 border-t border-gray-200 pt-10">
-              <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
-              <div className="prose prose-sm mt-4 text-gray-500">
-                <ul>
-                  {product.highlights.map((highlight) => (
-                    <div className="item-container flex justify-start items-center gap-2 mt-2">
-                      <CheckBadgeIcon className="w-6 h-6"></CheckBadgeIcon>
-                      <li key={highlight}>{highlight}</li>
-                    </div>
-                  ))}
-                </ul>
-              </div>
-            </div>
           </div>
+        </div>
+      </div>
 
-          <div className="mx-auto mt-16 w-full max-w-2xl lg:col-span-4 lg:mt-0 lg:max-w-none">
-            <TabGroup>
-              <div className="border-b border-gray-200">
-                <TabList className="-mb-px flex space-x-8">
-                  <Tab className="whitespace-nowrap border-b-2 border-transparent py-6 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-800  data-[selected]:text-indigo-600">
-                    FAQ
-                  </Tab>
-                  <Tab className="whitespace-nowrap border-b-2 border-transparent py-6 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-800  data-[selected]:text-indigo-600">
-                    License
-                  </Tab>
-                </TabList>
-              </div>
-              <TabPanels as={Fragment}>
-                <TabPanel className="text-sm text-gray-500">
-                  <h3 className="sr-only">Frequently Asked Questions</h3>
-
-                  <dl>
-                    {faqs.map((faq) => (
-                      <Fragment key={faq.question}>
-                        <dt className="mt-10 font-medium text-gray-900">
-                          {faq.question}
-                        </dt>
-                        <dd className="prose prose-sm mt-2 max-w-none text-gray-500">
-                          <p>{faq.answer}</p>
-                        </dd>
-                      </Fragment>
-                    ))}
-                  </dl>
-                </TabPanel>
-
-                <TabPanel className="pt-10">
-                  <h3 className="sr-only">License</h3>
-                  <div
-                    dangerouslySetInnerHTML={{ __html: license.content }}
-                    className="prose prose-sm max-w-none text-gray-500"
+      <div className="grid w-full lg:gap-8 lg:grid-cols-12 mx-auto px-4  sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
+        <div className=" border-gray-200 pt-6 col-span-5">
+          <h3 className="text-3xl text-center font-bold text-primaryDark">
+            Highlights
+          </h3>
+          <div className="prose prose-sm mt-4 text-gray-500">
+            <ul>
+              {product.highlights.map((highlight) => (
+                <div className="item-container flex justify-start items-center gap-2 mt-6">
+                  <img
+                    src={farmLeaf2Icon}
+                    className="w-10 h-11 rounded-full"
+                    alt="leaf icon"
                   />
-                </TabPanel>
-              </TabPanels>
-            </TabGroup>
+
+                  <li key={highlight}>{highlight}</li>
+                </div>
+              ))}
+            </ul>
           </div>
+        </div>
+
+        <div className="w-full col-span-7 ">
+          <TabGroup>
+            <div className="border-b border-gray-200">
+              <TabList className="-mb-px flex space-x-8">
+                <Tab className="whitespace-nowrap border-b-2 border-transparent py-6 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-800  data-[selected]:text-indigo-600">
+                  FAQ
+                </Tab>
+                <Tab className="whitespace-nowrap border-b-2 border-transparent py-6 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-800  data-[selected]:text-indigo-600">
+                  License
+                </Tab>
+              </TabList>
+            </div>
+            <TabPanels as={Fragment}>
+              <TabPanel className="text-sm text-gray-500">
+                <h3 className="sr-only">Frequently Asked Questions</h3>
+
+                <dl>
+                  {faqs.map((faq) => (
+                    <Fragment key={faq.question}>
+                      <dt className="mt-10 font-medium text-gray-900">
+                        {faq.question}
+                      </dt>
+                      <dd className="prose prose-sm mt-2 max-w-none text-gray-500">
+                        <p>{faq.answer}</p>
+                      </dd>
+                    </Fragment>
+                  ))}
+                </dl>
+              </TabPanel>
+
+              <TabPanel className="pt-10">
+                <h3 className="sr-only">License</h3>
+                <div
+                  dangerouslySetInnerHTML={{ __html: license.content }}
+                  className="prose prose-sm max-w-none text-gray-500"
+                />
+              </TabPanel>
+            </TabPanels>
+          </TabGroup>
         </div>
       </div>
     </div>

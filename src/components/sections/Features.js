@@ -5,7 +5,7 @@ import leafcon from "../../assets/icons/leaf.png";
 import mapIcon from "../../assets/icons/map.png";
 import sensorIcon from "../../assets/icons/sensor.png";
 import shot from "../../assets/images/shot.png";
-import farmLeaf2Icon from "../../assets/icons/farmLeaf2.png";
+import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const features = [
   {
     name: "Intelligent irrigation system",
@@ -52,7 +52,7 @@ export default function Features() {
             <img
               src={farmLeaf2Icon}
               alt="farm leaf ixon"
-              className="w-12 h-12 rounded-full"
+              className="w-12 h-14 rounded-full"
             />
             FARM App Features
           </h2>
@@ -66,9 +66,9 @@ export default function Features() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base/7 font-semibold text-gray-900">
+                <dt className="text-base/7 font-semibold text-gray-900 lg:text-lg">
                   <div className="absolute left-0 top-0 flex px-2 py-2 items-center justify-center rounded-lg bg-gray-100 border border-gray-300">
-                    <img src={feature.icon} alt="icon" className="size-8" />
+                    <img src={feature.icon} alt="icon" className="size-10" />
                   </div>
                   {feature.name}
                 </dt>

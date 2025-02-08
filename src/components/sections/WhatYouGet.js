@@ -1,7 +1,7 @@
 import dataLogerImg from "../../assets/images/including/including-1.png";
-import sensorImg from "../../assets/images/including/including-21.png";
+import sensorImg from "../../assets/images/including/including-24.png";
 import webAppImg from "../../assets/images/including/including-31.png";
-import farmLeaf2Icon from "../../assets/icons/farmLeaf2.png";
+import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const categories = [
   {
     name: " Data Logger & Modem",
@@ -12,27 +12,27 @@ const categories = [
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Housing</h3>
-                    <p class="text-gray-900 mt-2">UV Plastic</p>
+                    <p class="text-[#BFDBAF] mt-2">UV Plastic</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Dimensions</h3>
-                    <p class="text-gray-900 mt-2">28×22×8 cm</p>
+                    <p class="text-[#BFDBAF] mt-2">28×22×8 cm</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Power Supply</h3>
-                    <p class="text-gray-900 mt-2">3.6V Battery</p>
+                    <p class="text-[#BFDBAF] mt-2">3.6V Battery</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Measure Interval</h3>
-                    <p class="text-gray-900 mt-2">60 minutes</p>
+                    <p class="text-[#BFDBAF] mt-2">60 minutes</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Water Resistance</h3>
-                    <p class="text-gray-900 mt-2">IP68</p>
+                    <p class="text-[#BFDBAF] mt-2">IP68</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Weight</h3>
-                    <p class="text-gray-900 mt-2">850 gr</p>
+                    <p class="text-[#BFDBAF] mt-2">850 gr</p>
                 </div>
             </div>
             `,
@@ -46,27 +46,27 @@ const categories = [
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Range VWC</h3>
-                        <p class="text-gray-900 mt-2">0 - 100%</p>
+                        <p class="text-[#BFDBAF] mt-2">0 - 100%</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">EC (bulk)</h3>
-                        <p class="text-gray-900 mt-2">0 - 23 ds/m</p>
+                        <p class="text-[#BFDBAF] mt-2">0 - 23 ds/m</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Temperature</h3>
-                        <p class="text-gray-900 mt-2">-40 to 50°C</p>
+                        <p class="text-[#BFDBAF] mt-2">-40 to 50°C</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Cable Length</h3>
-                        <p class="text-gray-900 mt-2">5 m</p>
+                        <p class="text-[#BFDBAF] mt-2">5 m</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Dimensions</h3>
-                        <p class="text-gray-900 mt-2">12×3×1 cm</p>
+                        <p class="text-[#BFDBAF] mt-2">12×3×1 cm</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center ">
                         <h3 class="text-green-100 font-bold ">Measurement</h3>
-                        <p class="text-gray-900 mt-2">2 S</p>
+                        <p class="text-[#BFDBAF] mt-2">2 S</p>
                     </div>
                 </div>
                 `,
@@ -80,27 +80,27 @@ const categories = [
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Version</h3>
-                        <p class="text-gray-900 mt-2">Android, iOS</p>
+                        <p class="text-[#BFDBAF] mt-2">Android, iOS</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Installation</h3>
-                        <p class="text-gray-900 mt-2">Mobile / Web</p>
+                        <p class="text-[#BFDBAF] mt-2">Mobile / Web</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Connection</h3>
-                        <p class="text-gray-900 mt-2">Any Sensor</p>
+                        <p class="text-[#BFDBAF] mt-2">Any Sensor</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Control</h3>
-                        <p class="text-gray-900 mt-2">Irrigation</p>
+                        <p class="text-[#BFDBAF] mt-2">Irrigation</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Control</h3>
-                        <p class="text-gray-900 mt-2">Fertigation</p>
+                        <p class="text-[#BFDBAF] mt-2">Fertigation</p>
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Alert</h3>
-                        <p class="text-gray-900 mt-2">Frozen</p>
+                        <p class="text-[#BFDBAF] mt-2">Frozen</p>
                     </div>
                 </div>
                 `,
@@ -115,7 +115,7 @@ export default function WhatYouGet() {
           <img
             src={farmLeaf2Icon}
             alt="farm leaf ixon"
-            className="w-12 h-12 rounded-full"
+            className="w-12 h-14 rounded-full"
           />
           FARM Package Including
         </h2>

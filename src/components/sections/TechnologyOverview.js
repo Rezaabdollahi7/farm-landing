@@ -11,7 +11,7 @@ import {
   ChartBarSquareIcon,
   CloudIcon,
 } from "@heroicons/react/20/solid";
-import farmLeaf2Icon from "../../assets/icons/farmLeaf2.png";
+import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const tableData = {
   headers: ["Features", "FARM Sens 1", "FARM Sens 2", "FARM Sens 3"],
   rows: [
@@ -82,7 +82,7 @@ function TechnologyOverview() {
         <img
           src={farmLeaf2Icon}
           alt="farm leaf ixon"
-          className="w-12 h-12 rounded-full"
+          className="w-12 h-14 rounded-full"
         />
         Technology Overview & Products
       </h2>
