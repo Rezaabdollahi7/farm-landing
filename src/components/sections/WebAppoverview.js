@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { CheckBadgeIcon, ChatBubbleLeftIcon } from "@heroicons/react/20/solid";
+import { ChatBubbleLeftIcon } from "@heroicons/react/20/solid";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import SloganImg from "../../assets/images/farmPackage.png";
 import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
