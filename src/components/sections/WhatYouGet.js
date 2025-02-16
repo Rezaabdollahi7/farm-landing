@@ -16,15 +16,15 @@ const categories = [
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Dimensions</h3>
-                    <p class="text-[#BFDBAF] mt-2">28×22×8 cm</p>
+                    <p class="text-[#BFDBAF] mt-2">28×22×11 cm</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Power Supply</h3>
                     <p class="text-[#BFDBAF] mt-2">3.6V Battery</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
-                    <h3 class="text-green-100 font-bold ">Measure Interval</h3>
-                    <p class="text-[#BFDBAF] mt-2">60 minutes</p>
+                    <h3 class="text-green-100 font-bold lg:text-xs">Measurement Interval</h3>
+                    <p class="text-[#BFDBAF] mt-2">Daily</p>
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Water Resistance</h3>
@@ -32,7 +32,7 @@ const categories = [
                 </div>
                 <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                     <h3 class="text-green-100 font-bold ">Weight</h3>
-                    <p class="text-[#BFDBAF] mt-2">850 gr</p>
+                    <p class="text-[#BFDBAF] mt-2">1650 gr</p>
                 </div>
             </div>
             `,
@@ -75,9 +75,9 @@ const categories = [
     name: " FARM Web App",
     href: "#",
     imageSrc: webAppImg,
-    imageAlt: "farm web app image",
+    imageAlt: "FARM web app image",
     description: `
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 ">
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Version</h3>
                         <p class="text-[#BFDBAF] mt-2">Android, iOS</p>
@@ -100,7 +100,7 @@ const categories = [
                     </div>
                     <div class="p-2 bg-[#488245] rounded-lg shadow-md flex flex-col items-center text-center">
                         <h3 class="text-green-100 font-bold ">Alert</h3>
-                        <p class="text-[#BFDBAF] mt-2">Frozen</p>
+                        <p class="text-[#BFDBAF] mt-2">Frozen and 10 more</p>
                     </div>
                 </div>
                 `,
@@ -138,7 +138,7 @@ export default function WhatYouGet() {
                   <img
                     alt={category.imageAlt}
                     src={category.imageSrc}
-                    className="w-80 h-80 rounded-lg"
+                    className="w-68 h-72 "
                   />
                 </div>
               </div>

@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 import { ChatBubbleLeftIcon } from "@heroicons/react/20/solid";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
-import SloganImg from "../../assets/images/farmPackage.png";
+import SloganImg from "../../assets/images/farmPackage3.png";
 import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const product = {
-  name: "Farm  Web App",
+  name: "FARM  Web App",
   version: { name: "1.0", date: "November 19, 2024", datetime: "2024-11-19" },
   price: "$220",
   description:
-    "Farm is an innovative web application designed to enhance agricultural productivity through real-time soil monitoring and smart irrigation management, empowering farmers with data-driven insights to optimize water usage, improve crop health, and increase yields for sustainable farming practices.",
+    "FARM is an innovative web application designed to enhance agricultural productivity through real-time soil monitoring and smart irrigation management, empowering farmers with data-driven insights to optimize water usage, improve crop health, and increase yields for sustainable farming practices.",
   highlights: [
     "Irrigation and nutrient management",
     "Show the time, address, amount and type of poison",
@@ -24,24 +24,24 @@ const product = {
 
 const faqs = [
   {
-    question: "1- What is Farm?",
+    question: "1- What is FARM?",
     answer:
-      "Farm is an innovative web application that provides real-time soil monitoring and smart irrigation management tools to help farmers optimize water usage, enhance crop health, and improve overall agricultural productivity.",
+      "FARM is an innovative web application that provides real-time soil monitoring and smart irrigation management tools to help farmers optimize water usage, enhance crop health, and improve overall agricultural productivity.",
   },
   {
-    question: "2- How does Farm work?",
+    question: "2- How does FARM work?",
     answer:
-      "Farm uses advanced sensors to collect data on soil moisture, temperature, and nutrient levels. This data is then analyzed to provide actionable insights and alerts necessary for effective irrigation and crop management.",
+      "FARM uses advanced sensors to collect data on soil moisture, temperature, and nutrient levels. This data is then analyzed to provide actionable insights and alerts necessary for effective irrigation and crop management.",
   },
   {
     question: "3- Is there a mobile app for Farm?",
     answer:
-      "Currently, Farm is a web-based application. However, it is optimized for mobile devices, allowing you to access all features from your smartphone or tablet.",
+      "Currently, FARM is a web-based application. However, it is optimized for mobile devices, allowing you to access all features from your smartphone or tablet.",
   },
   {
     question: "4- Is my data secure with Farm?",
     answer:
-      "Yes, we prioritize your privacy and security. Farm employs industry-standard encryption and security measures to protect your data from unauthorized access and ensure it is safely stored.",
+      "Yes, we prioritize your privacy and security. FARM employs industry-standard encryption and security measures to protect your data from unauthorized access and ensure it is safely stored.",
   },
   {
     question: "5- How can I get support if I have issues with the application?",
@@ -54,7 +54,7 @@ const license = {
 
   content: `
     <p>
-        The Farm web application is licensed under a user-friendly plan that allows farmers and agricultural businesses to leverage its advanced features while ensuring compliance with intellectual property rights. The licensing typically includes access to real-time data analytics, support for sensor integration, and regular updates to enhance functionality. Users are granted permission to utilize the application for their farming needs, with stipulations regarding redistribution and modifications to protect the integrity of the software. For detailed licensing information, users are encouraged to review the End User License Agreement (EULA) provided upon registration or contact our support team for clarification on specific terms. This approach ensures that all users can effectively benefit from the technology while respecting the developers' rights
+        The FAEM web application is licensed under a user-friendly plan that allows farmers and agricultural businesses to leverage its advanced features while ensuring compliance with intellectual property rights. The licensing typically includes access to real-time data analytics, support for sensor integration, and regular updates to enhance functionality. Users are granted permission to utilize the application for their farming needs, with stipulations regarding redistribution and modifications to protect the integrity of the software. For detailed licensing information, users are encouraged to review the End User License Agreement (EULA) provided upon registration or contact our support team for clarification on specific terms. This approach ensures that all users can effectively benefit from the technology while respecting the developers' rights
     </p>
     
 
@@ -108,13 +108,13 @@ export default function WebAppOverview() {
 
             <p className="mt-6 text-gray-500">{product.description}</p>
 
-            <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
+            <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 ">
               <button
                 type="button"
-                className="flex w-full items-center justify-center gap-3 rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
+                className="flex w-max items-center justify-center gap-3 rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
               >
                 <ChatBubbleLeftIcon className="h-5 w-5 " aria-hidden="true" />
-                <span>info@farm.com</span>
+                <span>info@farm-sens.com</span>
               </button>
             </div>
           </div>
