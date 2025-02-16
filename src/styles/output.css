@@ -587,20 +587,8 @@ video {
   bottom: 0px;
 }
 
-.-top-40 {
-  top: -10rem;
-}
-
 .left-0 {
   left: 0px;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-\[calc\(50\%-11rem\)\] {
-  left: calc(50% - 11rem);
 }
 
 .right-0 {
@@ -613,6 +601,10 @@ video {
 
 .top-1\/2 {
   top: 50%;
+}
+
+.left-3 {
+  left: 0.75rem;
 }
 
 .top-6 {
@@ -724,10 +716,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-2\.5 {
-  margin-top: 0.625rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -774,10 +762,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.aspect-\[1155\/678\] {
-  aspect-ratio: 1155/678;
 }
 
 .aspect-\[1313\/771\] {
@@ -878,10 +862,6 @@ video {
   width: 32rem;
 }
 
-.w-\[36\.125rem\] {
-  width: 36.125rem;
-}
-
 .w-\[82\.0625rem\] {
   width: 82.0625rem;
 }
@@ -933,11 +913,6 @@ video {
 
 .origin-top-right {
   transform-origin: top right;
-}
-
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-y-1\/2 {
@@ -1150,10 +1125,6 @@ video {
   border-width: 1px;
 }
 
-.border-0 {
-  border-width: 0px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
@@ -1286,18 +1257,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-primaryDark {
-  --tw-gradient-from: #488245 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(72 130 69 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-\[\#9089fc\] {
   --tw-gradient-to: #9089fc var(--tw-gradient-to-position);
-}
-
-.to-primaryGreen {
-  --tw-gradient-to: #8CC63F var(--tw-gradient-to-position);
 }
 
 .object-cover {
@@ -1345,11 +1306,6 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.px-3\.5 {
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
 }
 
 .px-4 {
@@ -1415,10 +1371,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.pb-24 {
-  padding-bottom: 6rem;
 }
 
 .pb-32 {
@@ -1657,11 +1609,6 @@ video {
   --tw-ring-inset: inset;
 }
 
-.ring-gray-300 {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity, 1));
-}
-
 .ring-gray-400\/10 {
   --tw-ring-color: rgb(156 163 175 / 0.1);
 }
@@ -1730,11 +1677,6 @@ textarea {
   resize: none;
 }
 
-.placeholder\:text-gray-400::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
-}
-
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
 }
@@ -1800,18 +1742,9 @@ textarea {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.focus\:ring-inset:focus {
-  --tw-ring-inset: inset;
-}
-
 .focus\:ring-indigo-500:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity, 1));
-}
-
-.focus\:ring-indigo-600:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(79 70 229 / var(--tw-ring-opacity, 1));
 }
 
 .focus\:ring-offset-2:focus {
@@ -1852,16 +1785,8 @@ textarea {
     position: static;
   }
 
-  .sm\:-top-80 {
-    top: -20rem;
-  }
-
   .sm\:left-1\/2 {
     left: 50%;
-  }
-
-  .sm\:left-\[calc\(50\%-30rem\)\] {
-    left: calc(50% - 30rem);
   }
 
   .sm\:top-0 {
@@ -1884,16 +1809,8 @@ textarea {
     display: flex;
   }
 
-  .sm\:h-80 {
-    height: 20rem;
-  }
-
   .sm\:w-\[57rem\] {
     width: 57rem;
-  }
-
-  .sm\:w-\[72\.1875rem\] {
-    width: 72.1875rem;
   }
 
   .sm\:max-w-lg {
@@ -1959,10 +1876,6 @@ textarea {
     padding-bottom: 6rem;
   }
 
-  .sm\:pb-32 {
-    padding-bottom: 8rem;
-  }
-
   .sm\:pb-40 {
     padding-bottom: 10rem;
   }
@@ -1999,18 +1912,9 @@ textarea {
     line-height: 1.5rem;
   }
 
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:leading-6 {
-    line-height: 1.5rem;
   }
 
   .sm\:leading-8 {
@@ -2065,10 +1969,6 @@ textarea {
   .lg\:sticky {
     position: -webkit-sticky;
     position: sticky;
-  }
-
-  .lg\:inset-0 {
-    inset: 0px;
   }
 
   .lg\:inset-y-0 {
@@ -2172,10 +2072,6 @@ textarea {
 
   .lg\:h-32 {
     height: 8rem;
-  }
-
-  .lg\:h-full {
-    height: 100%;
   }
 
   .lg\:w-32 {
@@ -2349,10 +2245,6 @@ textarea {
 
   .lg\:pr-4 {
     padding-right: 1rem;
-  }
-
-  .lg\:pt-16 {
-    padding-top: 4rem;
   }
 
   .lg\:pt-40 {

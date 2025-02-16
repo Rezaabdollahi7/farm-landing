@@ -2,12 +2,21 @@ import SensorsTableImg from "../../assets/images/sensorsTable.png";
 import whatsappImg from "../../assets/icons/watsapp.png";
 import productImage from "../../assets/images/productImg.webp";
 import farmSecondLogo from "../../assets/images/farmSecondLogo.jpg";
+import { Link } from "react-router-dom";
+import { BackspaceIcon } from "@heroicons/react/24/outline";
 
 export default function Contact2() {
   return (
     <>
       <div className="bg-white">
         <div className="relative isolate pt-14">
+          <Link
+            to={"/"}
+            className=" absolute top-6 left-3 text-sm font-semibold rounded-xl flex items-center gap-3 "
+          >
+            <BackspaceIcon className="w-10 h-10" />
+            <span>Back </span>
+          </Link>
           <div className="py-8  lg:pb-40">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center flex justify-center items-center flex-col gap-4">
