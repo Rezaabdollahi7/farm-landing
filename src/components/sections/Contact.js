@@ -1,3 +1,4 @@
+import whatsappImg from "../../assets/icons/watsapp.png";
 export default function Contact() {
   return (
     <div className="bg-white py-24 sm:py-32">
@@ -60,10 +61,15 @@ export default function Contact() {
                   href="https://wa.me/989050012737"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-600 hover:underline flex items-center"
+                  className="text-gray-600 hover:underline flex items-center gap-2"
                   aria-label="صفحه واتساپ شرکت Farm Sens"
                 >
-                  +98 905 001 2737
+                  <img
+                    src={whatsappImg}
+                    alt="watsapp icon"
+                    className="h-8 w-8"
+                  />
+                  <span>Contact Us</span>
                 </a>
               </p>
             </address>

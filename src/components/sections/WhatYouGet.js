@@ -1,6 +1,6 @@
 import dataLogerImg from "../../assets/images/including/including-1.png";
 import sensorImg from "../../assets/images/including/including-24.png";
-import webAppImg from "../../assets/images/including/including-31.png";
+import webAppImg from "../../assets/images/including/including-32.png";
 import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const categories = [
   {

@@ -591,6 +591,10 @@ video {
   left: 0px;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -601,10 +605,6 @@ video {
 
 .top-1\/2 {
   top: 50%;
-}
-
-.left-3 {
-  left: 0.75rem;
 }
 
 .top-6 {
@@ -621,6 +621,18 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .col-span-5 {
@@ -818,8 +830,8 @@ video {
   height: 2rem;
 }
 
-.h-full {
-  height: 100%;
+.h-\[16rem\] {
+  height: 16rem;
 }
 
 .w-10 {
@@ -943,6 +955,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-rows-1 {
@@ -1988,6 +2004,14 @@ textarea {
     top: 1rem;
   }
 
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -2072,6 +2096,10 @@ textarea {
 
   .lg\:h-32 {
     height: 8rem;
+  }
+
+  .lg\:h-96 {
+    height: 24rem;
   }
 
   .lg\:w-32 {
@@ -2186,14 +2214,6 @@ textarea {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .lg\:self-end {
-    align-self: flex-end;
-  }
-
-  .lg\:self-center {
-    align-self: center;
   }
 
   .lg\:overflow-hidden {

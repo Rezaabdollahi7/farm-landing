@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { ChatBubbleLeftIcon } from "@heroicons/react/20/solid";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
-import SloganImg from "../../assets/images/farmPackage3.png";
+import SloganImg from "../../assets/images/farmPackage4.png";
 import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const product = {
   name: "FARM  Web App",

@@ -4,10 +4,10 @@ import inputcon from "../../assets/icons/input.png";
 import leafcon from "../../assets/icons/leaf.png";
 import mapIcon from "../../assets/icons/map.png";
 import sensorIcon from "../../assets/icons/sensor.png";
-import shot1 from "../../assets/images/Features/shot1.png";
-import shot2 from "../../assets/images/Features/shot2.png";
-import shot3 from "../../assets/images/Features/shot3.png";
-import shot4 from "../../assets/images/Features/shot4.png";
+import shot1 from "../../assets/images/Features/shot11.png";
+import shot2 from "../../assets/images/Features/shot22.png";
+import shot3 from "../../assets/images/Features/shot33.png";
+import shot4 from "../../assets/images/Features/shot44.png";
 import farmLeaf2Icon from "../../assets/icons/farmLeaf3.jpeg";
 const features = [
   {
