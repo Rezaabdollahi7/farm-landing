@@ -11,12 +11,12 @@ const navigation = [
   { name: "Features ", href: "#Features", current: false },
   {
     name: "Sens 1",
-    href: "https://docs.google.com/presentation/d/1C5ulTXIAe9lVfEqTOUr3PdlHsSCd9zc5/edit?usp=drive_link&ouid=116030266330590200291&rtpof=true&sd=true",
+    href: "https://drive.google.com/file/d/1RZMafnd5vhqGfPc6xXajrE1mT2UnDw39/view?usp=sharing",
     current: false,
   },
   {
     name: "Benefits",
-    href: "https://drive.google.com/file/d/1RZMafnd5vhqGfPc6xXajrE1mT2UnDw39/view?usp=sharing",
+    href: "https://docs.google.com/presentation/d/1C5ulTXIAe9lVfEqTOUr3PdlHsSCd9zc5/edit?usp=drive_link&ouid=116030266330590200291&rtpof=true&sd=true",
     current: false,
   },
 ];
@@ -60,10 +60,10 @@ export default function Hero() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 font-semibold"
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" className="h-6 w-6" />
+              <Bars3Icon aria-hidden="true" className="h-9 w-9" />
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -119,7 +119,7 @@ export default function Hero() {
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
               >
                 <span className="sr-only">Close menu</span>
-                <XMarkIcon aria-hidden="true" className="h-6 w-6" />
+                <XMarkIcon aria-hidden="true" className="h-10 w-10" />
               </button>
             </div>
             <div className="mt-6 flow-root">
