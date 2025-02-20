@@ -11,7 +11,12 @@ export default function HowItWorks() {
         <div className=" px-6 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4 ">
             <div className="lg:max-w-lg ">
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-primaryDark sm:text-4xl">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-primaryDark sm:text-4xl flex gap-2  items-center">
+                <img
+                  src={farmLeaf2Icon}
+                  alt="farm leaf ixon"
+                  className="w-12 h-14 rounded-full"
+                />
                 How it works
               </h1>
             </div>
