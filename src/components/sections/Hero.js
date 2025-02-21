@@ -16,7 +16,7 @@ const navigation = [
   },
   {
     name: "Benefits",
-    href: "https://docs.google.com/presentation/d/1C5ulTXIAe9lVfEqTOUr3PdlHsSCd9zc5/edit?usp=drive_link&ouid=116030266330590200291&rtpof=true&sd=true",
+    href: "https://drive.google.com/file/d/1k-hzmGJXr2GQqdHtEOkrldg_NkZdsD_R/view?usp=sharing",
     current: false,
   },
 ];
