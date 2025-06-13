@@ -128,8 +128,11 @@ export default function WebAppOverview() {
           </h3>
           <div className="prose prose-sm mt-4 text-gray-500">
             <ul>
-              {product.highlights.map((highlight) => (
-                <div className="item-container flex justify-start items-center gap-2 mt-6">
+              {product.highlights.map((highlight, index) => (
+                <div
+                  key={index}
+                  className="item-container flex justify-start items-center gap-2 mt-6"
+                >
                   <img
                     src={farmLeaf2Icon}
                     className="w-10 h-11 rounded-full"

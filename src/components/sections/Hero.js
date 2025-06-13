@@ -3,6 +3,7 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "../../assets/icons/farm.png";
 import { Link } from "react-router-dom";
+
 const navigation = [
   { name: "Home", href: "#", current: true },
   { name: "How It Works ? ", href: "#how", current: false },
@@ -129,6 +130,7 @@ export default function Hero() {
                     <a
                       key={item.name}
                       href={item.href}
+                      onClick={() => setMobileMenuOpen(false)}
                       className="mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
@@ -140,12 +142,14 @@ export default function Hero() {
                     href="https://users.farm-sens.com/"
                     target="_blank"
                     rel="noreferrer"
+                    onClick={() => setMobileMenuOpen(false)}
                     className=" inline text-base font-semibold leading-7 text-gray-900 bg-yellow-400 rounded-xl px-4 py-2"
                   >
                     FARM App
                   </a>
                   <Link
                     to={"/contact"}
+                    onClick={() => setMobileMenuOpen(false)}
                     className="text-sm font-semibold leading-6 text-white bg-blue-600 rounded-xl px-4 py-2"
                   >
                     Shop
